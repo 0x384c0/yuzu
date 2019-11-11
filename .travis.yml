@@ -50,8 +50,6 @@ deploy:
   file_glob: true
   file: "artifacts/*"
   skip_cleanup: true
-  on:
-    tags: true
 
 notifications:
   webhooks:
